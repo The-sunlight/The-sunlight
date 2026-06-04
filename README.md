@@ -19,7 +19,7 @@ I prefer protocol-first research practice: clear baselines, reproducible experim
 ### Rock Slope Crack Segmentation
 
 <p align="center">
-  <img src="assets/crack_segmentation_overview.png" width="88%" alt="Rock slope crack segmentation research loop">
+  <img src="assets/crack_segmentation_overview.svg" width="88%" alt="Rock slope crack segmentation research loop">
 </p>
 
 This project studies semantic segmentation of thin crack-like structures in real rock slope scenes. The central challenge is not only public-dataset accuracy, but the domain gap between broad public crack datasets and complex geological environments.
