@@ -2,7 +2,7 @@
 # Weichen Cheng
 
 > Undergraduate researcher at the School of Artificial Intelligence, China University of Mining and Technology-Beijing.  
-> Research interests: **Computer Vision**, **Semantic Segmentation**, **Rock Slope Crack Detection**, uncertainty-aware learning, and multimodal representation.
+> > Research interests: **Computer Vision**, **Semantic Segmentation**, **Rock Slope Crack Detection**, real-world model evaluation, and multimodal representation.
 
 [![GitHub](https://img.shields.io/badge/GitHub-The--sunlight-24292f?logo=github)](https://github.com/The-sunlight)
 [![arXiv](https://img.shields.io/badge/arXiv-2604.06728-b31b1b)](https://arxiv.org/abs/2604.06728)
@@ -10,7 +10,7 @@
 
 ## About
 
-I am interested in reliable perception for subtle and noisy real-world signals. My current work focuses on dense prediction for crack-like structures, domain-shift-aware evaluation, uncertainty-guided model analysis, and robust multimodal fusion.
+I am interested in reliable perception for subtle and noisy real-world signals. My current work focuses on dense prediction for crack-like structures, public-to-real domain shift, real-domain error analysis, and robust multimodal fusion.
 
 I prefer protocol-first research practice: clear baselines, reproducible experiment logs, conservative claims, and visible error analysis.
 
@@ -28,13 +28,13 @@ This project studies semantic segmentation of thin crack-like structures in real
   <img src="assets/crack_qualitative_results.png" width="88%" alt="Qualitative crack segmentation error audit panels">
 </p>
 
-The qualitative audit shows typical real-domain failure modes: low-contrast thin-crack false negatives and false positives caused by complex rock texture. These observations motivate error-type-aware data diagnosis, morphology-aware source selection, and conservative uncertainty-guided adaptation.
+The qualitative audit shows typical real-domain failure modes: low-contrast thin-crack false negatives and false positives caused by complex rock texture. These observations motivate error-type-aware data diagnosis, morphology-aware data selection, and more cautious evaluation of public-to-real transfer performance.
 
 ## Research Interests
 
 - **Semantic Segmentation:** crack segmentation, thin-structure perception, dense prediction benchmarks.
 - **Rock Slope Crack Detection:** geological hazard perception, real-domain error audit, morphology-aware data selection.
-- **Uncertainty-aware Learning:** reliability estimation, hard sample routing, robust fusion and contrastive objectives.
+- **Robust Visual Perception:** domain shift, real-domain error analysis, thin-structure segmentation, and reliable model evaluation.
 - **Multimodal Representation:** text-image interaction, modality reliability, multimodal sarcasm detection.
 
 ## Selected Work
@@ -48,9 +48,9 @@ URMF models textual, visual, and interaction-aware representations with uncertai
 
 [arXiv](https://arxiv.org/abs/2604.06728) · [PDF](https://arxiv.org/pdf/2604.06728)
 
-### Uncertainty-guided Crack Segmentation for Rock Slope Scenes
+### Rock Slope Crack Segmentation in Real-world Scenes
 
-A MMSegmentation-based research codebase for crack segmentation, public-to-real transfer, real-domain error auditing, morphology-aware source selection, and uncertainty-guided anchored training. The main research loop fixes strong baselines first, evaluates real-domain transfer carefully, and uses error evidence to decide which optimization branches are worth keeping.
+A MMSegmentation-based research codebase for crack segmentation, public-to-real transfer, and real-domain error analysis. The project focuses on building strong segmentation baselines, evaluating domain shift from public crack datasets to real rock slope scenes, and analyzing typical failure modes such as missed thin cracks, broken connectivity, and false positives caused by complex rock textures.
 
 [Code](https://github.com/The-sunlight/mmseg-crack) · [Project Notes](https://github.com/The-sunlight/mmseg-crack/blob/main/docs/project/START_HERE.md) · [Experiment Log](https://github.com/The-sunlight/mmseg-crack/blob/main/docs/experiment_logs/crack_public_resplit_segformer_b3_journal_2026-04-13.md)
 
