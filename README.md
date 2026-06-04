@@ -14,6 +14,22 @@ I am interested in reliable perception for subtle and noisy real-world signals. 
 
 I prefer protocol-first research practice: clear baselines, reproducible experiment logs, conservative claims, and visible error analysis.
 
+## Visual Highlights
+
+### Rock Slope Crack Segmentation
+
+<p align="center">
+  <img src="assets/crack_segmentation_overview.png" width="88%" alt="Rock slope crack segmentation research loop">
+</p>
+
+This project studies semantic segmentation of thin crack-like structures in real rock slope scenes. The central challenge is not only public-dataset accuracy, but the domain gap between broad public crack datasets and complex geological environments.
+
+<p align="center">
+  <img src="assets/crack_qualitative_results.png" width="88%" alt="Qualitative crack segmentation error audit panels">
+</p>
+
+The qualitative audit shows typical real-domain failure modes: low-contrast thin-crack false negatives and false positives caused by complex rock texture. These observations motivate error-type-aware data diagnosis, morphology-aware source selection, and conservative uncertainty-guided adaptation.
+
 ## Research Interests
 
 - **Semantic Segmentation:** crack segmentation, thin-structure perception, dense prediction benchmarks.
@@ -34,7 +50,7 @@ URMF models textual, visual, and interaction-aware representations with uncertai
 
 ### Uncertainty-guided Crack Segmentation for Rock Slope Scenes
 
-A MMSegmentation-based research codebase for crack segmentation, real-domain error auditing, morphology-aware source selection, and uncertainty-guided anchored training.
+A MMSegmentation-based research codebase for crack segmentation, public-to-real transfer, real-domain error auditing, morphology-aware source selection, and uncertainty-guided anchored training. The main research loop fixes strong baselines first, evaluates real-domain transfer carefully, and uses error evidence to decide which optimization branches are worth keeping.
 
 [Code](https://github.com/The-sunlight/mmseg-crack) · [Project Notes](https://github.com/The-sunlight/mmseg-crack/blob/main/docs/project/START_HERE.md) · [Experiment Log](https://github.com/The-sunlight/mmseg-crack/blob/main/docs/experiment_logs/crack_public_resplit_segformer_b3_journal_2026-04-13.md)
 
